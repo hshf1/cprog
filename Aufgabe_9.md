@@ -27,6 +27,7 @@ Testen Sie Ihr Programm mit unterschiedlichen Testfällen.
 <summary>Click to expand</summary>
   
   Erstellen Sie das Struktogramm für Ihr Hauptprogramm und für die Unterfunktionen
+  //kleiner Test für GitDesktop
   </details>
 
   
