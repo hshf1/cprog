@@ -30,6 +30,6 @@ Schrieben sie nun in Ihrer Hauptfunktion, eine Schleife, die :
 <details>
 <summary>Click to expand</summary>
 
-Benutze den Zeilenverschub nach jeder erhöhunt um nicht alle Werte in einer Zeile zu haben
+Benutze den Zeilenverschub nach jeder Erhöhung, um nicht alle Werte in einer Zeile zu haben
 
 </details>
