@@ -5,11 +5,11 @@
  
  - Geben Sie die Zeichenkette wieder aus.
  - Ermitteln Sie die Anzahl der Zeichen innerhalb der Zeichenkette.
- - Geben Sie die Zeichnenkette in umgekehrter Reihenfolge wieder aus.
+ - Geben Sie die Zeichenkette in umgekehrter Reihenfolge wieder aus.
  - Ermitteln Sie die Anzahl der Großbuchstaben und geben Sie die Anzahl aus.
  - Ermitteln Sie die Anzahl der Vokale in der Zeichenkette und geben Sie die Anzahl aus.
  - Geben Sie die Zeichenkette nur mit Konsonanten aus, Vokale sind ersatzlos gestrichen.
- - Geben Sie die länge der so entstandene Zeichenkette und die prozentuale Kompressionsrate aus
+ - Geben Sie die Länge der so entstandenen Zeichenkette und die prozentuale Kompressionsrate aus
 
 
 ## Zusatz
