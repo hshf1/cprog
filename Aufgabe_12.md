@@ -14,6 +14,7 @@ Ein Lagerplatz wird beschrieben durch eine Struktur ```PLATZ_T```, die folgende 
 
 Deklarieren Sie über ```typedef``` den Datentypen ```TYP_T```
 Deklarieren Sie die Datenstruktur für ```PLATZ_T``` und definieren Sie ein Feld mit Namen ```lager``` mit 20 Einträgen von Typ ```PLATZ_T```.
+Diese 20 Plätze sollen durch Änderung beliebig erweitert werden.
 Initialisieren Sie in Ihrem Hauptprogramm die ersten 5 Einträge des Feldes ```lager``` mit beliebigen Werten (Fest oder Einlesen von der Tastatur).
 Geben Sie in einer Schleife die Seriennummer und den Typ der ersten 5 Einträge am Bildschirm aus.
 
@@ -32,5 +33,5 @@ Gehen Sie hierzu folgendermaßen vor:
 - Schreiben Sie eine Funktion ```ausgabe```, die den kompletten Lagerbestand ausgibt mit Seriennummer, Position und Fahrzeugtyp.
 - Schreiben Sie eine Funktion ```einlagern```, die an der ersten freien Stelle Ihres Feldes ```lager``` die übergebenen Werte schreibt. Überprüfen Sie in Ihrer Funktion, ob der vorgegebene Lagerplatz frei oder bereits vergeben ist.
   - Erstellen Sie vor der Programmierung ein Struktogramm
-- Schreiben Sie eine Funktion ```asulagern```, die ein Fahrzeug mit der angegebenen Seriennummer aus dem Feld entfernt, indem die Werte der Feldstruktur auf die ```default```-Werte zurückgesetzt werden.
+- Schreiben Sie eine Funktion ```auslagern```, die ein Fahrzeug mit der angegebenen Seriennummer aus dem Feld entfernt, indem die Werte der Feldstruktur auf die ```default```-Werte zurückgesetzt werden.
 - Schreiben Sie eine Funktion ```inventur```, die ermittelt, wie viele Fahrzeuge insgesamt und wie viele Kombis, Limousinen und Cabrios im Lager sind.
