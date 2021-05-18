@@ -10,7 +10,7 @@ Lösen Sie dazu die folgenden Teilaufgaben:
 - Geben Sie jedes Wort des Wortspeichers auf dem Bildschirm aus, falls der Satz weniger als 5 Wörter hat.
 
 
-# Info - calloc
+## Info - calloc
 <details>
   <summary> Klick zum öffnen </summary>
   
