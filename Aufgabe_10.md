@@ -26,6 +26,20 @@
  
  </details>
  
+
+ ## Tipp - Zeichenkette einlesen
+ <details>
+ <summary> Klicken zum öffnen</summary>
+ Um eine Zeichenkette ein zu lesen, gibt es drei Varianten, die verwendet werden können:
+ 
+- gets(zeichenkette)
+- fgets(zeichenkette, zeichenanzahl, stdin)
+  - stdin steht für die Tastatur, mit fgets kann auch von anderen Quellen gelesen werden
+- scanf("%<anzahl>s", zeichenkette)
+  -  https://www.tutorialspoint.com/c_standard_library/c_function_scanf.htm
+ 
+ </details>
+ 
  ## Tipp - Zeichnkette umdrehen
  <details>
  <summary> Klick zu öffnen</summary>
