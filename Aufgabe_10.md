@@ -49,6 +49,15 @@
  
  </details>
  
+  ## Tipp - Vokale
+ <details>
+ <summary> Klick zu öffnen</summary>
+ 
+ - Zeichen können auch in Zahlen umgewandelt werden. Dafür gibt es eine bestimmte Tabelle (ASCII)
+ - Mittels einer oder mehrerer logische(n/r) Operation(en) können die gewünschten Kriterien kombiniert werden
+ 
+ </details>
+ 
  ## Tipp - Vokale
  <details>
  <summary> Klick zu öffnen</summary>
