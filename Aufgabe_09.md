@@ -71,7 +71,8 @@ Im ersten Punkt mit "Buchstabe einlesen", ist noch eine Fehlerabfrage eingebaut,
 ![Screenshot (31)](https://user-images.githubusercontent.com/79829648/117532858-e9d19780-afe9-11eb-8998-6357607d014e.png)
 
 # Buchstaben einlesen
-![Screenshot (32)](https://user-images.githubusercontent.com/79829648/117532867-f2c26900-afe9-11eb-8734-7e47b38f4da7.png)
+[Screenshot (49)](https://user-images.githubusercontent.com/79829648/123069864-8376cc00-d413-11eb-8e05-0ca7d66f4684.png)
+
 
 # Buchstaben verändern
 ![Screenshot (33)](https://user-images.githubusercontent.com/79829648/117532872-f7871d00-afe9-11eb-9e77-71b95c358ac3.png)
