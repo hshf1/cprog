@@ -32,7 +32,9 @@ Nutzen Sie nun anstatt des Arrays eine dynamische Routingverwaltung.
     <summary>klicken zum öffnen</summary>   
 
 ## Verkettetet Liste im Array
- ![Verkettete Liste array](https://user-images.githubusercontent.com/79829648/122029032-da095800-cdcc-11eb-8f4b-3b579497aec2.png)
+ ![Verkettete Liste Array](https://user-images.githubusercontent.com/79829648/123070303-ecf6da80-d413-11eb-83fc-92e783d46cdb.png)
+
 ## Verkettetet Liste mit malloc    
-![Verkettete Liste malloc](https://user-images.githubusercontent.com/79829648/122029044-dc6bb200-cdcc-11eb-82b6-c09dcbf9a39f.png)
+![Verkettete Liste malloc](https://user-images.githubusercontent.com/79829648/123070311-ef593480-d413-11eb-9194-1b11ac60f5de.png)
+
   </details>
