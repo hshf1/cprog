@@ -1,9 +1,9 @@
 # Formel für den Weltfrieden
 
-Erstellen Sie ein Programm, dass eine Integervariable mit dem Wert 17 initialisiert.
-Erzuegen Sie eine bitweise Und-Operation mit dem Wert _0xF_. 
-Nutzen Sie eine zusammengesezte Zuweisung.
-Geben Sie das Ergebnis aus.
+- Erstellen Sie ein Programm, dass eine Integervariable mit dem Wert 17 initialisiert.
+- Erzeugen Sie eine bitweise Und-Operation mit dem Wert _0xF_. 
+- Nutzen Sie eine zusammengesezte Zuweisung.
+- Geben Sie das Ergebnis aus.
 
 Das Ergebnis schieben Sie um 2 Bit nach links und erhöhen Sie es danach um 1 und geben es wieder aus.
 
