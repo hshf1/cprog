@@ -3,38 +3,36 @@
 Erstellen Sie ein Programm, das die ASCII-Zeihen NR. 48 bis 57 als Zahlenwert und als Zeichen ausgibt.
 Nutzen sie hierfür eine Zälschleife.
 
+- [ ] Zählschleife
 - [ ] Ausgabe von Zahl und Zeichen
-- [ ] Zählschleife
 
 
-## Schritt 1
 
-Schreibe ein Programm, das ein ASCII-Zeichen ihrer Wahl (NR. 48 bis 57) als Zahlen- und Zeichenwert ausgibt.
-
-- [x] Ausgabe von Zahl und Zeichen
-- [ ] Zählschleife
-
-#### Tip
+## Tipp - Schleife
 <details>
-<summary>Click to expand</summary>
-
-Überlegen sie sich wie  bzw als was der Wert im printf() Befeh ausgegebn werden soll
-
+<summary>Klicken zum öffnen</summary>
+  
+   Schreibe Sie eine Schleife, welche von 48 bis 57 hochzählt.
+  Sie können eine ```for``` oder eine ```while``` Schleife verwenden. 
+ 
+  
 </details>
 
 
-## Schritt 2
-
-Erweitern sie ihr Programm so, das alle ASCII-Zeihen NR. 48 bis 57 als Zahlenwert und als Zeichen ausgegeben werden.
-Benutzen sie dafür eine Zählschleife.
-
-- [x] Ausgabe von Zahl und Zeichen
-- [x] Zählschleife
-
-#### Tip
+## Tipp - Ausgabe
 <details>
-<summary>Click to expand</summary>
+<summary>Klicken zum öffnen</summary>
 
-In der Zählschleife kann auch ein printf() Befehl stehen.
-
+Die Ausgabe kann in der Schleife ausgeführt werden.
+Mit dem passenden Datentypen reicht eine Variable für Zahl und Zeichen bei der Ausgabe.
+  
+  ### Tipp
+<details>
+<summary>Klicken zum öffnen</summary>
+    
+  Versuchen Sie es mal mit einem ```char```
+    
+  </details> 
 </details>
+
+
