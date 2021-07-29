@@ -23,9 +23,9 @@ Schrieben sie nun in Ihrer Hauptfunktion eine Schleife, die :
 - alle Werte für 1<=R<=10 ausgibt
 
 
-#### Tip
+#### Tipp
 <details>
-<summary>Click to expand</summary>
+<summary>Klicken zum öffnen</summary>
 
 Benutze den Zeilenverschub nach jeder Erhöhung, um nicht alle Werte in einer Zeile zu haben.
 
