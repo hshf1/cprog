@@ -1,27 +1,28 @@
 # Aufgabe 3
 
-Diese Programm berechnet den Zinsertrag Ihres Kapitals und das resultierende Gesamtkapital ja nach Dauer der Anlage.
+Das Programm soll den Zinsertrag Ihres Kapitals und das resultierende Gesamtkapital ja nach Dauer der Anlage berechnen.
+
 Dazu sind nach der Ausgabe der Aufgabenstellung das Kapital, der Zinssatz und die Dauer der Anlage in Jahren einzugeben.
-Die Ausgabe soll mit zwei Stellen nach dem Komma erfolgen
+Die Ausgabe soll mit zwei Stellen nach dem Komma erfolgen.
 
-- [ ] Ertrag und Endkapital
+
 - [ ] Werte einlesen
-
-! Diese Gliederung ist nur eine Hilfestellung sie können Ihr Programm auch direkt mit der Tastatureingabe schreiben. !
-
-## Schritt 1
-
-Entwickeln sie ein Programm, dass den Zinsertrag Ihres Kapitals und das resultierende Gesamtkapital ja nach Dauer der Anlage berechnet und ausgibt.
-Benutzen sie zur Berechnung eine Schleife.
-
-- [x] Ertrag und Endkapital
-- [ ] Werte einlesen
+- [ ] Ertrag und Endkapital berechnen
 
 
-## Schritt 2
+## Tipp - Berechnen
+<details>
+<summary>Klicken zum öffnen</summary>
+Das Kapital lässt sich am einfachsten mit einer Potenzfunktion berechnen. Diese befindet sich in der ```math.h``` Bibliothek.
+  Mit der Funktion ```pow(a,b)``` wird der Wert für a^b berechnet.
+  
+  Eine weitere Möglichkeit wäre eine Schleife, die auf das aktuelle Kapital den Zinssatz verrechnet.
+</details>
 
-Erweitern sie Ihr Programm so, dass das Kapital, der Zinssatz und die Dauer der Anlage in Jahren vom Benutzer eingegeben wird.
-Geben die diese Werte vor der Berechnung ebenfalls auf dem Bildschirm aus und formatieren sie die Ausgabe so, dass Ertrag und Gesamtkapital mit zwei NAchkommastellen ausgegeben werden.
-
-- [x] Ertrag und Endkapital
-- [x] Werte einlesen
+## Tipp - Formatieren
+<details>
+  <summary>Klicken zum öffnen</summary>
+  Zur formatieren bezüglich der Kommazahlen existiert ein Tipp in Aufgabe 2
+  
+  https://github.com/hshf1/cprog/blob/main/Aufgabe_02.md
+  </details>
