@@ -105,13 +105,5 @@ Erzeugen sie durch die Wahl entsprechender Datentypen einen Rechenfehler.
 
 </details>
 
-## Level 2
 
-<details>
-<summary>Klicken zum öffnen</summary>
-
-Hier etwas für die fortgeschrittenen!
-
-Alle Angaben sollen nun nicht im printf() Befehl stehen, sonder von der Tastatur eingelesen werden.
-</details>
 © 2021 GitHub, Inc.
