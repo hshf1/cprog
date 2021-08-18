@@ -3,13 +3,13 @@
 ## Teil 1
 
 Erstellen Sie ein Programm zur Erzeugung einer CSV-Datei in welcher 4 Wertereihen
-(Winkel in Grad, Winkeln in Bogenmaß, Sinuswert, Cosinuswert) abgespeichert werden.
+(Winkel in Grad, Winkel in Bogenmaß, Sinuswert, Cosinuswert) abgespeichert werden.
 
 Hinweis: Eine CSV Datei ist eine Textdatei mit Dateiendung CSV. In der ersten Dateizeile
 werden die Überschriften (der Spalte) getrennt durch Semikolon geschrieben. Jede
 Folgezeile enthält die Werte getrennt durch Semikolon.
 
-Über eine Menüfunktion soll Auswählbar sein, ob Sie eine CSV-Datei erstellen oder lesen
+Über eine Menüfunktion soll auswählbar sein, ob Sie eine CSV-Datei erstellen oder lesen
 oder das Programm verlassen möchten.
 
 - Erstellen Sie eine Unterfunktion ```int menue(void)``` in der Sie drei Menüeinträge
@@ -41,6 +41,6 @@ Suchzeichen entsprechen, werden durch Ersatzzeichen ersetzt.
 Spracheinstellung Deutschland) als Dezimaltrenner das Komma anstatt den Punkt. Drucken
 Sie die Messwerte zuerst in einen String mittels ```sprintf```. Dann ersetzten Sie im String alle
 Punkte durch Kommata. Drucken Sie dann den String in die Datei.
-- Beim Laden laden Sie zuerst die Messwerte in ein String ein, dann Ersetzten sie alle
+- Beim Laden laden Sie zuerst die Messwerte in ein String ein, dann ersetzten sie alle
 Kommata durch Punkte und lesen dann final die Messwerte aus dem String mittels sscanf
 ein.
