@@ -57,7 +57,7 @@
  - Mittels einer oder mehrerer logische(n/r) Operation(en) können die gewünschten Kriterien kombiniert werden
  
  
- ## Tipp - Vokale
+ ## Tipp - Vokale 2
  <details>
  <summary> Klick zu öffnen</summary>
  
