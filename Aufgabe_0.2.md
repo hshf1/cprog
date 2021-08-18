@@ -2,7 +2,7 @@
 
 - Erstellen Sie ein Programm, dass eine Integervariable mit dem Wert 17 initialisiert.
 - Erzeugen Sie eine bitweise Und-Operation mit dem Wert _0xF_. 
-- Nutzen Sie eine zusammengesezte Zuweisung.
+- Nutzen Sie eine zusammengesetzte Zuweisung.
 - Geben Sie das Ergebnis aus.
 
 Das Ergebnis schieben Sie um 2 Bit nach links und erhöhen Sie es danach um 1 und geben es wieder aus.
@@ -14,5 +14,5 @@ Das Ergebnis schieben Sie um 2 Bit nach links und erhöhen Sie es danach um 1 un
 Lösen Sie jetzt die Rechenoperation noch einmal mit nur einer Zeile Code.
 Ersetzen Sie in Ihrer Formel den Shift-Operator durch eine arithmetische Operation.
 
-Liefertdiese Alternative für alle Zahlen das gleiche Ergebnis? Diskutieren Sie.
+Liefert diese Alternative für alle Zahlen das gleiche Ergebnis? Diskutieren Sie.
 </details>
