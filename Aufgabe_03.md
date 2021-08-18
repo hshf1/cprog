@@ -22,7 +22,7 @@ Das Kapital lässt sich am einfachsten mit einer Potenzfunktion berechnen. Diese
 ## Tipp - Formatieren
 <details>
   <summary>Klicken zum öffnen</summary>
-  Zur formatieren bezüglich der Kommazahlen existiert ein Tipp in Aufgabe 2
+  Zur formatieren bezüglich der Kommazahlen existiert ein Tipp in Aufgabe 2:
   
   https://github.com/hshf1/cprog/blob/main/Aufgabe_02.md
   </details>
