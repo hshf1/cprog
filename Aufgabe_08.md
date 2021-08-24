@@ -5,7 +5,7 @@ Sie müssen daher nicht für jeden Teil eine neue Datei anlegen, sondern erweite
 
 ## Teil 1
 <details>
-<summary>Klicken zum öffnen</summary>
+<summary>Klicken zum Öffnen</summary>
 
 Erstellen Sie ein Feld von 10 int-Werten und Initialisieren Sie das Feld mit beliebigen Daten.
 Berechnen Sie die Summe aller Feldelemente und geben Sie die Summe aus.
@@ -22,9 +22,9 @@ Hier nochmal in Kurzform:
 
 
 
-### Tip 1 - Summeberechnen
+### Tipp 1 - Summeberechnen
 <details>
-<summary>Click to expand</summary>
+<summary>Klicken zum Öffnen</summary>
   
 Berechnen Sie Summe des Feldes mit der Hilfe einer for() oder while() Schleife.
 
@@ -33,9 +33,9 @@ Berechnen Sie Summe des Feldes mit der Hilfe einer for() oder while() Schleife.
 
 
 
-### Tip 2 - Feldelement
+### Tipp 2 - Feldelement
 <details>
-<summary>Click to expand</summary>
+<summary>Klicken zum Öffnen</summary>
 
 Lassen Sie eine Zählschleife laufen und überprüfe, welcher Wert kleiner bzw. größer ist und speichern Sie den Wert und die Stelle zum Beispiel in einer Hilfsvariable ab.
 
@@ -48,7 +48,7 @@ Lassen Sie eine Zählschleife laufen und überprüfe, welcher Wert kleiner bzw. 
 ## Teil 2
 
 <details>
-<summary>Click to expand</summary>
+<summary>Klicken zum Öffnen</summary>
 
 Ihr Programm soll nun so erweitert/verändert werden, dass die unten aufgelisteten Aufgaben in Unterfunktionen stehen.
 
@@ -68,7 +68,7 @@ Die Unterfunktionen sollten diese Form aufweisen:
 
   ## Tipp - Unterfunktion
 <details>
-<summary>Klicken zum öffnen</summary>
+<summary>Klicken zum Öffnen</summary>
   
 Unterfunktionen sind immer dann sehr hilfreich, wenn Sie eine Aufgabe erfüllen, welche mehrfach benötigt wird. (z.B. in Schleifen)
   Überlegen Sie sich, was Sie für das Unterprogramm benötigen. Welchen Rückgabe-Typ soll die Funktion haben, welche und wie viele Parameter möchten Sie der Unterfunktion übergeben.
@@ -105,7 +105,7 @@ Unterfunktionen sind immer dann sehr hilfreich, wenn Sie eine Aufgabe erfüllen,
 ## Teil 3
 
 <details>
-<summary>Click to expand</summary>
+<summary>Klicken zum Öffnen</summary>
   Erweitern Sie nun Ihr Programm um die aufgelisteten Aufgaben.
   Diese sollen ebenfalls als Unterfunktionen in Ihrem Programm stehen.
   
@@ -138,7 +138,7 @@ Benutzen Sie dafür die Unterprogramme aus 8.2
   ## Teil 4
 
 <details>
-<summary>Click to expand</summary>
+<summary>Klicken zum Öffnen</summary>
   
   Erweitern Sie Ihr Programm um ein weiteres Unterprogramm, welches das Feld sortiert.
   
@@ -148,9 +148,9 @@ Benutzen Sie dafür die Unterprogramme aus 8.2
 Geben Sie das Feld vor und nach dem sortieren aus.
 
 
-### Tip 1 (Info) - Felder sortieren
+### Tipp 1 (Info) - Felder sortieren
 <details>
-<summary>Click to expand</summary>
+<summary>Klicken zum Öffnen</summary>
 Sortieren von Feldern ist ein ganz wichtiger Bestandteil der Programmierung. 
 Zu diesem Thema gibt es gleich eine ganze Reihe an Verfahren, die sich in Komplexität und
 Geschwindigkeit sehr unterscheiden.
