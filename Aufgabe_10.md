@@ -14,23 +14,23 @@
 
 ## Zusatz
 <details>
- <summary>Klick zum öffnen</summary>
+ <summary>Klicken zum Öffnen</summary>
  Erstellen Sie zu jeder Teilaufgabe ein Struktogramm
   
   </details>
   
   ## Sonderaufgabe
   <details>
- <summary> Klick zu öffnen</summary>
- Auch Großbuchstaben Ä, Ö und Ü sollen gezählt werden.
+ <summary>Klicken zum Öffnen</summary>
+ Auch die Großbuchstaben Ä, Ö und Ü sollen gezählt werden.
  
  </details>
  
 
  ## Tipp - Zeichenkette einlesen
  <details>
- <summary> Klicken zum öffnen</summary>
- Um eine Zeichenkette ein zu lesen, gibt es drei Varianten, die verwendet werden können:
+ <summary>Klicken zum Öffnen</summary>
+ Um eine Zeichenkette einzulesen, gibt es drei Varianten, die verwendet werden können:
  
 - gets(zeichenkette)
 - fgets(zeichenkette, zeichenanzahl, stdin)
@@ -42,7 +42,7 @@
  
  ## Tipp - Zeichnkette umdrehen
  <details>
- <summary> Klick zu öffnen</summary>
+ <summary>Klicken zum Öffnen</summary>
  
  - (for-)Schleifen können auch runter zählen
  - Ein Zwischenspeicher oder eine zweite Zeichenkette könnte hilfreich sein
@@ -51,7 +51,7 @@
  
   ## Tipp - Vokale
  <details>
- <summary> Klick zu öffnen</summary>
+ <summary>Klicken zum Öffnen</summary>
  
  - Zeichen können auch in Zahlen umgewandelt werden. Dafür gibt es eine bestimmte Tabelle (ASCII)
  - Mittels einer oder mehrerer logische(n/r) Operation(en) können die gewünschten Kriterien kombiniert werden
@@ -59,7 +59,7 @@
  
  ## Tipp - Vokale 2
  <details>
- <summary> Klick zu öffnen</summary>
+ <summary>Klicken zum Öffnen</summary>
  
  - Zeichenketten können miteinander verglichen werden
  - Ein Zwischenspeicher oder eine zweite Zeichenkette könnte hilfreich sein
