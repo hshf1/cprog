@@ -1,8 +1,8 @@
 # Aufgabe 7
 
 
-Sie suchen für Ihr Projekt einen Widerstand. Sie haben den Baukasten der E12 Reihe mit den Widerständen von 1 bis 10.000.
-Leider ist kein Widerstand dabei, der nah genug an ihrem Wunschwert liegt. Sie möchten dem durch 2 parallel geschaltete Widerstände aus der E12 Reihe möglichst nahekommen.  Entwickeln Sie ein Programm, das alle Kombinationen automatisch erstellt und das beste Widerstandspaar für Sie ermittelt und ausgibt.
+Sie suchen für Ihr Projekt einen Widerstand. Sie haben den Baukasten der E12 Reihe mit den Widerständen von 1 bis 10.000 Ohm.
+Leider ist kein Widerstand dabei, der nah genug an ihrem Wunschwert liegt. Sie möchten diesem durch 2 parallel geschaltete Widerstände aus der E12 Reihe möglichst nahekommen.  Entwickeln Sie ein Programm, das alle Kombinationen automatisch erstellt und das beste Widerstandspaar für Sie ermittelt und ausgibt.
 Ihr Programm soll die folgenden Punkte erfüllen:  
   
   - [ ] Berechnen Sie die E12 Reihe bis 10.000 Ohm und geben Sie diese aus
@@ -28,9 +28,9 @@ Ihr Programm soll die folgenden Punkte erfüllen:
 ## Tipp - E12 Reihe
 
 <details>
-<summary>Click to expand</summary>
+<summary>Klicken zum Öffnen</summary>
 
-Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade erhalten!
+Die E12 Reihe sind Widerstände, die 12 Widerstände pro Dekade enthalten!
 Geben Sie die E12-Reihe von 1 bis 10.000 an.
 
 Es kann die Funktion pow() mit 10 hoch x/12 verwendet werden.
@@ -41,7 +41,7 @@ pow() befindet sich in der math.h Bibliothek
   ## Tipp - Parallelschaltung
   
   <details>
-  <summary>Click to expand</summary>
+  <summary>Klicken zum Öffnen</summary>
   
   Die Parallelschaltung kann durch 
   
@@ -56,7 +56,7 @@ pow() befindet sich in der math.h Bibliothek
  ## Tipp - Wiederstände berechnen
   
   <details>
-  <summary>Click to expand</summary>
+  <summary>Klicken zum Öffnen</summary>
 
  Um alle Widerstandskombinationen zu berechnen, kann eine doppelte for-Schleife verwendet werden 
   
@@ -95,7 +95,7 @@ Dies wird wiederholt, bis i=4 ist und die Bedingung i<4 nicht mehr erfüllt wird
 
 
 <details>
- <summary>Click to expand</summary>
+ <summary>Klicken zum Öffnen</summary>
   
    Berechnen Sie die Differenz zwischen dem letzten und aktuellen Widerstand im Vergleich zum gewünschten Widerstand, speichern Sie den besseren.
    Ist der passendste Widerstand gefunden, kann der Zähler gespeichert und als Rückgabewert übergeben werden.
@@ -107,13 +107,13 @@ Dies wird wiederholt, bis i=4 ist und die Bedingung i<4 nicht mehr erfüllt wird
 ## Zusatz
 
 <details>
- <summary>Click to expand</summary>
+ <summary>Klicken zum Öffnen</summary>
   
   Bitte erst dann weiter machen, wenn alles zuvor funktioniert!
 
 ### Gewinnspiel(Sose2021)
 <details>
- <summary>Click to expand</summary>
+ <summary>Klicken zum Öffnen</summary>
  
  Sie dürfen nun 3 Widerstände für Ihren gesuchten Widerstand benutzen und **beliebig** anordnen.
  
