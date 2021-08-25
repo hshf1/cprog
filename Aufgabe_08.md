@@ -22,11 +22,11 @@ Hier nochmal in Kurzform:
 
 
 
-### Tipp 1 - Summeberechnen
+### Tipp 1 - Summe berechnen
 <details>
 <summary>Klicken zum Öffnen</summary>
   
-Berechnen Sie Summe des Feldes mit der Hilfe einer for() oder while() Schleife.
+Berechnen Sie die Summe des Feldes mit der Hilfe einer for() oder while() Schleife.
 
 
 </details>
@@ -37,7 +37,7 @@ Berechnen Sie Summe des Feldes mit der Hilfe einer for() oder while() Schleife.
 <details>
 <summary>Klicken zum Öffnen</summary>
 
-Lassen Sie eine Zählschleife laufen und überprüfe, welcher Wert kleiner bzw. größer ist und speichern Sie den Wert und die Stelle zum Beispiel in einer Hilfsvariable ab.
+Lassen Sie eine Zählschleife laufen und überprüfen Sie, welcher Wert kleiner bzw. größer ist und speichern Sie den Wert und die Stelle zum Beispiel in einer Hilfsvariable ab.
 
 </details>
 
@@ -71,12 +71,12 @@ Die Unterfunktionen sollten diese Form aufweisen:
 <summary>Klicken zum Öffnen</summary>
   
 Unterfunktionen sind immer dann sehr hilfreich, wenn Sie eine Aufgabe erfüllen, welche mehrfach benötigt wird. (z.B. in Schleifen)
-  Überlegen Sie sich, was Sie für das Unterprogramm benötigen. Welchen Rückgabe-Typ soll die Funktion haben, welche und wie viele Parameter möchten Sie der Unterfunktion übergeben.
+  Überlegen Sie sich, was Sie für das Unterprogramm benötigen. Welchen Rückgabe-Typ soll die Funktion haben, welche und wie viele Parameter möchten Sie der Unterfunktion übergeben?
   Es kann nur ein Wert zurückgegeben werden!
   
   ```C
   int berechneSumme(int iZahl1, int iZahl2){ 
-    /* Die Unterfunktion ist vom Typen Int und bekommt zwei Integer Werte übergeben.
+    /* Die Unterfunktion ist vom Typen Int und bekommt zwei Integerwerte übergeben.
     Diese heißen für die Unterfunktion iZahl1 und iZahl2
     Im Hauptprogramm können die Werte andere Namen haben(s.u.)! */
     int iBums;                // Nur für die Unterfunktion wird eine weitere Variable mit dem Namen iBums angelegt
@@ -93,7 +93,7 @@ Unterfunktionen sind immer dann sehr hilfreich, wenn Sie eine Aufgabe erfüllen,
   iZahlC = berechneSumme(iZahlA, iZahlB);
   /*iZahlC wird der Rückgabewert aus der Unterfunktion berechneSumme() zugewiesen.
     iZahlA aus dem Hauptprogramm heißt für die Unterfunktion iZahl1 und iZahlB ist iZahl2.
-    Wichtig ist, dass die Datentypen übereinstimmen sonst kommt es zu Fehlern.*/
+    Wichtig ist, dass die Datentypen übereinstimmen, sonst kommt es zu Fehlern.*/
   
   }
   ```
@@ -145,13 +145,13 @@ Benutzen Sie dafür die Unterprogramme aus 8.2
   > void feld_sortieren (int[10])
   > 
 
-Geben Sie das Feld vor und nach dem sortieren aus.
+Geben Sie das Feld vor und nach dem Sortieren aus.
 
 
 ### Tipp 1 (Info) - Felder sortieren
 <details>
 <summary>Klicken zum Öffnen</summary>
-Sortieren von Feldern ist ein ganz wichtiger Bestandteil der Programmierung. 
+Das Sortieren von Feldern ist ein ganz wichtiger Bestandteil der Programmierung. 
 Zu diesem Thema gibt es gleich eine ganze Reihe an Verfahren, die sich in Komplexität und
 Geschwindigkeit sehr unterscheiden.
 
