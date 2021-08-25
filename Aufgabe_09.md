@@ -23,20 +23,20 @@ Testen Sie Ihr Programm mit unterschiedlichen Testfällen.
 
 ## Tipp - scanf()
 <details>
-  <summary> klicke zum öffnen </summary>
+  <summary>Klicken zum Öffnen</summary>
   
   ```scanf``` liest von der Tastatur ein und vergleicht mit der angegebenen Formatanweisung.
-  Bei dem bereits bekannten verfahren weisen sie mit dem "&" dem eingelesenen Werte eine Adresse zu, in welche diese gespeichert werden soll.
+  Bei dem bereits bekannten verfahren weisen Sie mit dem "&" dem eingelesenen Werte eine Adresse zu, in welche diese gespeichert werden soll.
   ```C
   int a=0;
   scanf("%d",&a);
   ````
   
-  Wenn mit pointern gearbeitet wird, dann wird bereits eine Adresse übergeben und das "&" wird weggelassen.
+  Wenn mit Pointern gearbeitet wird, wird bereits eine Adresse übergeben und das "&" wird weggelassen.
   ``` C
   void einlesen(*ptr)
   {
-    printf("Bitte geben sie eine Zahle ein:\n");
+    printf("Bitte geben Sie eine Zahl ein:\n");
     scanf("%f",ptr);
   }
   ```
@@ -45,18 +45,18 @@ Testen Sie Ihr Programm mit unterschiedlichen Testfällen.
 
 ## Beispiel Pointer
 <details>
-<summary>Klicken zum öffnen</summary>
+<summary>Klicken zum Öffnen</summary>
   
   
 
-  In dem folgenden Beispiel wird ein Pointer an ein Unterprogramm übergeben und in diesem Unterprogramm wird der eingelesen Wert direkt an die in der main deklarierten Variable gespeichert.
+  In dem folgenden Beispiel wird ein Pointer an ein Unterprogramm übergeben und in diesem Unterprogramm wird der eingelese Wert direkt an die in der main deklarierten Variable gespeichert.
   ![Screenshot (41)](https://user-images.githubusercontent.com/79829648/121770494-e477e780-cb69-11eb-82ef-566f3bb7d404.png)
 
 An der Ausgabe kann das nachvefolgt werden.
   
   ## Ausführlich
   <details>
-<summary>Klicken zum öffnen</summary>
+<summary>Klicken zum Öffnen</summary>
   Sie werden einen Programmcode sehen, welcher ähnlich dem zu dieser Aufgabe ist.
   Der Code, den Sie auf den Bildern sehen, bearbeitet die folgenden Punkte:
   
@@ -86,7 +86,7 @@ Im ersten Punkt mit "Buchstabe einlesen", ist noch eine Fehlerabfrage eingebaut,
 
 ## Zusatz
 <details>
-<summary>Klicken zum öffnen</summary>
+<summary>Klicken zum Öffnen</summary>
   
   Erstellen Sie das Struktogramm für Ihr Hauptprogramm und für die Unterfunktionen
   </details>
