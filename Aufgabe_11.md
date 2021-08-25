@@ -12,9 +12,10 @@ Lösen Sie dazu die folgenden Teilaufgaben:
 
 ## Info - calloc
 <details>
-  <summary> Klick zum öffnen </summary>
+  <summary>Klicken zum Öffnen</summary>
   
   calloc reserviert Speicherplatz in Ihrem Rechner, setzt den Inhalt, den calloc reserviert auf 0 und gibt einen Zeiger auf die erste Stelle des Speichers zurück. malloc reserviert Speicher und gibt einen Pointer auf die erste Stelle des Speichers zurück, ohne den Speicher vorher auf 0 zu setzten.
+  
   Verwendung von calloc:
  - Vor dem Befehl sollte der Datentyp des Pointers stehen [(int*),(float*),...]
  - In dem Befehl stehen dann die Anzahl der Elemente und die Größe
@@ -27,7 +28,7 @@ Lösen Sie dazu die folgenden Teilaufgaben:
 
 # Zusatz 
 <details>
-  <summary> Klick zum öffnen </summary>
+  <summary>Klicken zum Öffnen</summary>
     
 Erstellen Sie für Ihre Lösung ein Struktogramm.
 
