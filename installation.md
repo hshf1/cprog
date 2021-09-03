@@ -154,7 +154,7 @@ und gehen dann wie auf den Screenshots markiert vor:
 
 ### Bevor wir beginnen
 Die Mutigen unter euch sind im Begriff sich mit drei Befehlen 4 Programme, 3 Extensions, 1 Schriftartenfamilie und 2 Programmiersprachen zu installieren.
-Das spart eine Menge Zeit und wahrscheinlich zwei Dutzend Arbeitsschritte, bei denen sich Fehler einschleichen können. Trotzdem solltet ihr das nur bei absolut vertrauenswürdigen Quellen, wie hier ein Dokument aus dem Kurs von Prof. Dr. Will, in Erwägung ziehen. Gleich beim ersten Befehl sollten alle Warnleuchten angehen.
+Das spart eine Menge Zeit und wahrscheinlich zwei Dutzend Arbeitsschritte, bei denen sich Fehler einschleichen können. Trotzdem solltet ihr das nur bei absolut vertrauenswürdigen Quellen, wie hier ein Dokument aus einem Kurs der Hochschule, in Erwägung ziehen. Gleich beim ersten Befehl sollten alle Warnleuchten angehen.
 
 `<Set-ExecutionPolicy Bypass>`bedeutet, dass die üblichen Sicherheitseinstellungen umgangen werden und `<DownloadString('https://chocolatey.org/install.ps1')>` lädt ein Script (erkennbar an der Endung .ps1) aus dem Internet nach.
 
