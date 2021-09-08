@@ -106,7 +106,7 @@ Im ersten Punkt mit "Buchstabe einlesen", ist noch eine Fehlerabfrage eingebaut,
   
  Die imaginäre Suchmaschine ```www.einfachsuche.net``` bekommt bei der Suche nach dem Suchbegriff "Hochschule Hannover" folgenden HTTP-Request:
   
- ~http://www.einfachsuche.net/?search=Hochschule+Hannover
+  http://www.einfachsuche.net/?search=Hochschule+Hannover
   
 Erstellen Sie ein Programm, welches die Umwandlung eines Suchbegriffs (in Form eines Strings) in den dazugehörigen HTTP-Request-String vornimmt. Dabei soll wie folgt vorgegangen werden:
   
