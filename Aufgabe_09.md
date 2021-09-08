@@ -103,6 +103,7 @@ Im ersten Punkt mit "Buchstabe einlesen", ist noch eine Fehlerabfrage eingebaut,
   # Level 2 
   <details>
 <summary>Klicken zum Öffnen</summary>
+  SS 14
   
  Die imaginäre Suchmaschine ```www.einfachsuche.net``` bekommt bei der Suche nach dem Suchbegriff "Hochschule Hannover" folgenden HTTP-Request:
   
