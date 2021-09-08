@@ -100,7 +100,7 @@ Im ersten Punkt mit "Buchstabe einlesen", ist noch eine Fehlerabfrage eingebaut,
   ```korrigieren2``` soll nach der Funktion aus Teil 1 aufgerufen werden.
   Füllen Sie dazu die fehlenden Stellen **rechts** neben der Zahl mit 0 auf.
   
-  # Level 2 
+  # Level 2 ~ Freiwillig
   <details>
 <summary>Klicken zum Öffnen</summary>
   SS 14
