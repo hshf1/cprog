@@ -99,3 +99,27 @@ Im ersten Punkt mit "Buchstabe einlesen", ist noch eine Fehlerabfrage eingebaut,
   
   ```korrigieren2``` soll nach der Funktion aus Teil 1 aufgerufen werden.
   Füllen Sie dazu die fehlenden Stellen **rechts** neben der Zahl mit 0 auf.
+  
+  # Level 2 
+  <details>
+<summary>Klicken zum Öffnen</summary>
+  
+ Die imaginäre Suchmaschine ```www.einfachsuche.net``` bekommt bei der Suche nach dem Suchbegriff "Hochschule Hannover" folgenden HTTP-Request:
+  
+ ~http://www.einfachsuche.net/?search=Hochschule+Hannover
+  
+Erstellen Sie ein Programm, welches die Umwandlung eines Suchbegriffs (in Form eines Strings) in den dazugehörigen HTTP-Request-String vornimmt. Dabei soll wie folgt vorgegangen werden:
+  
+a) Der gewünschte Suchbegriff wird mit der Tastatur angegeben und in einen Puffer gespeichert. Man
+kann davon ausgehen, dass die einzelnen Worte des Suchbegriffs nur durch jeweils ein Leerzeichen
+getrennt sind.
+  (Sollte der eingegebene Suchbegriff leer sein, ist ein Fehler auszugeben und das Programm zu beenden.)
+  
+b) Der angegebene Begriff wird durchsucht und alle Leerzeichen werden durch das Zeichen ‘+‘ ersetzt.
+  
+c) Der Ergebnisstring ergibt sich durch Zusammensetzen des festen Strings
+"http://www.einfachsuchen.net/?search=" mit dem in Schritt 1. und 2. modifizierten
+Suchbegriff.
+  
+d) Der resultierende String wird auf der Konsole ausgegeben.
+  </details>
