@@ -32,3 +32,13 @@ Da für diese Aufgabe nur eine Zahl benötigt wird, kann das Abbruchkriterium hi
 Erweitern Sie ihr Programm so, dass bei Eingabe einer Zahl größer 100 eine Fehlermeldung erscheint und das Programm wiederholt wird.
 
 </details>
+
+# Level 2 ~ Freiwillig
+<details>
+<summary>Klicken zum Öffnen</summary>
+  
+ Das Programm soll nun so angepasst werden, dass größere Zahlen verkleinert werden, aber nicht kleiner oder größer werden können als die zuvor ausgegebenen Zahlen.
+  
+ Mit negativen Zahlen soll dasselbe passieren, das Kriterium ist hier mindestens -100.
+  
+  </details>
