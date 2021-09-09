@@ -36,7 +36,7 @@ Mit dem passenden Datentypen reicht eine Variable für Zahl und Zeichen bei der 
 </details>
 
 
-Level 2 ~ Freiwillig
+## Level 2 ~ Freiwillig
 <details>
 <summary>Klicken zum Öffnen</summary>
   
