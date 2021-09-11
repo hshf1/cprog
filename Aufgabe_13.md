@@ -44,3 +44,60 @@ Punkte durch Kommata. Drucken Sie dann den String in die Datei.
 - Beim Laden laden Sie zuerst die Messwerte in einen String, dann ersetzten Sie alle
 Kommata durch Punkte und lesen dann final die Messwerte aus dem String mittels sscanf
 ein.
+
+# Level 2 ~ Freiwillig
+<details>
+  <summary>klicken zum Öffnen</summary>
+WS 16 [4]
+  
+Das Programm soll einen Messdatenfile einlesen. Die Daten liegen im Textformat vor und sind durch " ; "
+(Leertaste Semikolon Leertaste) voneinander getrennt. In der ersten Spalte steht ein Zeitstempel, dann folgen
+drei Spalten mit Messwerten. Die Datei enthält maximal 500 Messreihen (sogenannte samples). Die erste Zeile
+enthält eine Datenüberschrift. Die Überschriften können sich ändern, sind aber maximal 10 Zeichen lang.
+Hier ein Auszug des Messdatenfiles:
+  
+> Zeit ; Drehmoment ; v_Soll ; x_Soll  
+> 0 ; -45.1163 ; 10998 ; 386  
+> 0.019999014 ; -45.1645 ; 10998 ; 386  
+> 0.03000689 ; -45.1835 ; 10998 ; 386  
+> 0.040001747 ; -44.9231 ; 10998 ; 386  
+  
+Ihre Aufgabe besteht darin die Daten einzulesen und formatiert auszugeben.
+Alle Teilaufgaben können für sich gelöst werden!
+  
+__Ihre Aufgaben:__
+* 1 Schreiben Sie ein Hauptprogramm mit folgenden Bestandteilen:
+  
+  * a. benötigte include Anweisungen, mit geeigneter Präprozessoranweisung ein Makro MAX_SAMPLES mit Wert 100 (define Anweisungen)
+  * b. ein Zweidimensionales Feld zur Ablage der Messreihenüberschriften aus der ersten Zeile der Datei. Feld‐Dimension: 4 und je Überschrifttext 10 Zeichen.
+  * c. Zweidimensionales Messwerte‐Feld vom Type float. Das Feld soll für MAX_SAMPLES und 4 Sensoren Platz bieten.
+  * d. eine Variable datei für den Namen der Messdatei: "2016_WS_A4_Messdaten.csv"
+  
+* 2 Es soll für eine Funktion mit folgenden Prototypen ein Struktogramm erstellt werden:
+  
+```int ladeMessdatei(char ueber[4][11], float mw [MAX_SAMPLES] [4], char dat[30]);```
+  
+In der Funktion wird zuerst die Datei mit dem Namen mf im Lesemodus geöffnet. Mittels fscanf und
+eines passenden Formatstrings sollen die Überschriften eingelesen werden. Mittels fscanf und eines
+weiteren passenden Formatstrings sollen dann in einer Schleife die Messwerte solange eingelesen
+werden, bis entweder MAX_SAMPLES oder EOF erreicht wurde. Die Funktion soll die Anzahl der
+eingelesenen Messreihen zurückgeben oder -1, falls die Datei nicht geöffnet werden konnte.
+  
+* 3 Erstellen Sie für die Funktion ladeMessdatei gemäß der Beschreibung im Aufgabenteil 2 eine C‐Funktion!
+  
+ * 4 Schreiben Sie die Funktion messwerteAusgeben mit folgendem Prototypen:
+  
+```void messwerteAusgeben(char ueber[4][11], float mw [MAX_SAMPLES][4], int anzMesswerte);```
+  
+Die Funktion soll zuerst die Anzahl eingelesener Messwerte, dann den Text der Überschriften und dann alle Messreihen inklusive der Messreihennummer an der Konsole in 5 Spalten untereinander ausgeben, wobei die Spalten durch Tabulator getrennt und rechtsbündig mit drei Nachkommastellen formatiert sein müssen (siehe Beispielausgabe unten).
+  
+* 5 Erweitern Sie Ihr Hauptprogramm:
+  * a. Rufen Sie die Funktion ladeMessdatei auf.
+  * b. Falls diese Funktion einen oder mehr Messwerte aus der Datei einlesen konnte, starten Sie die
+        Funktion ```messwerteAusgeben```, um die eingelesenen Daten an der Konsole sehen zu können.
+  
+  Beispiel der Ausgabe:
+
+![Formatierte Ausgabe](https://user-images.githubusercontent.com/79829648/132944130-d2c0b713-0f89-42bf-90bc-5ee74629f896.png)
+
+  </details>
