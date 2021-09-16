@@ -328,7 +328,7 @@ Im folgenden Screenshot sind mal drei Möglichkeiten markiert (eine mit vorherig
 
 ### Datei erstellen
 
-Die Datei erstellt man genau wie den Ordner, nur der Kommandozeilen-Befehl lautet nicht `<mkdir>`, sondern `<touch>` bei Linux und MacOS bzw. `<New-Item -ItemType file>` in der Windows PowerShell.
+Die Datei erstellt man genau wie den Ordner, blos halt logischerweise mit dem Datei-Icon bzw. new file statt new folder.
 
 Damit VSCode weiß, wie es mit einer Datei umzugehen hat, muss sie von uns mit der richtigen Endung versehen werden. Wir legen zum Ausprobieren zwei neue Dateien an:
 
@@ -341,6 +341,8 @@ Ein erster Eintrag in raumFuerNotizen.txt könnte z. B. sein:
 > *Der Zugang zu Computern und allem, was einem zeigen kann, wie diese Welt funktioniert, sollte unbegrenzt und vollständig sein.
 > *Alle Informationen müssen frei sein.
 
+Damit haben wir eine .txt Datei, die offensichtlich Text enthält. Diese wird keine Syntax-Highlighting enthalten und lässt sich auch nicht komplieren, abarbeiten, ausführen oder was auch immer.
+  
 Mit der Datei beispielProgramm.c befassen wir uns im nächsten Abschnitt.
 
 - [x] Ordner angelegt
@@ -380,10 +382,18 @@ und fügen folgenden Text ein:
 >     return 0;
 >     }
 
-Bei einem Blick an den oberen Bildschirmrand sehen wir neben dem Namen unserer Datei einen weißen (bei Standardfarbeinstellungen) Kreis. Dies bedeutet, dass es nicht gespeicherte Änderungen gibt.
+Eine durchaus sinnvolle Einstellung ist die Autosave-Funktion, die regelmäßig die aktuelle Datei speichert.
+  
+Bei einem Blick an den oberen Bildschirmrand sehen wir neben dem Namen unserer Datei entweder ein weißes Kreuz oder einen weißen (bei Standardfarbeinstellungen) Kreis. Der Kreis bedeutet, dass es nicht gespeicherte Änderungen gibt.
 
-Durch das Betätigen von [command] + [s] (MacOS) bzw. [strg] + [s] speichern wir unsere Arbeit und sehen, dass sich der Kreis in ein X verwandelt.
+Durch das Betätigen von 
+  [strg] + [s] (Windows)
+    bzw. 
+  [command] + [s] (MacOS)
+speichern wir unsere Arbeit und sehen, dass sich der Kreis in ein X verwandelt.
 
+
+  
 - [x] Ordner angelegt
 - [x] Datei angelegt
 - [x] Programm geschrieben und gespeichert
