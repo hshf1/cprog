@@ -169,11 +169,13 @@ Zunächst rechts-klicken wir ganz unten links auf das Windows-Icon und wählen i
 
 <img width="276" alt="image" src="https://user-images.githubusercontent.com/78163337/111452622-000e5600-8713-11eb-9c34-0cbfdfcc411c.png">
 
-### "Bewährte Installation"  
+An dieser Stelle gibt es jetzt zwei Möglichkeiten. Eine Anleitung, die sich im letzten Semester bewährt hat, aber ein wenig mehr Arbeit macht, mehr Möglichkeiten für Fehler bietet und beim Pfad für eure selbstgeschriebenen Programme keine Wahl lässt und eine neue "beta" Variante, die einem mit wenigen Klicks eine prima vorkunfigurierte Version von VSCode bietet und auf meinem Test-Rechner super funktioniert, aber bisher halt auch nur da.
+  
+### "Bewährte" Installation  
   
 <details> 
   
-  <summary>Hier klicken um VSCode auf erprobte Weise zu installieren, die aber ein wenig mehr Arbeit macht. Eure Programme befinden sich am Ende in eurem Dokumente Ordner.</summary>
+  <summary>Hier klicken um VSCode auf erprobte Weise zu installieren.</summary>
 In diese PowerShell kopieren wir am Stück folgende Zeile:
 
 > Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
@@ -300,7 +302,7 @@ An dieser Stelle sind wir mit dem windows-spezifischen Teil der Installation und
 ### "Beta" Installation
   
 <details> 
-<summary>Hier klicken um VSCode auf die schnelle, ungetestete Art zu installieren. Hier könnt ihr auswählen, wo auf eurer Festplatte sich später eure C-Programme befinden. Nur die Art der Installation ist neu, die installierten Programme sind identisch.</summary>
+<summary>Hier klicken um VSCode auf die kaum getestete Art zu installieren. </summary>
   
 In diese PowerShell kopieren wir am Stück folgende Zeile:
 
@@ -313,9 +315,11 @@ und bestätigen mit „Enter“ und warten ab, bis uns PowerShell einen frischen
 Damit wir uns sicher sein können, dass die Änderungen wirksam sind, schließen wir das PowerShell Fenster und öffnen ein neues (wieder mit Administrator-Rechten)
 Nun kopieren wir die folgende Zeile in die PowerShell, bestätigen mit Enter und warten wieder auf den Eingabeprompt. Hier passiert jetzt wirklich eine Menge und kann sich nach Internetverbindung und Rechner 20 - 30 Minuten hinziehen. Also bitte Geduld.
 
-choco install mingw --version=8.1.0 -y; choco install vscode vscode-cpptools vscode-code-runner vscode-gitlens vscode-icons vscode-live-share vscode-live-share-audio git cascadiafonts -y
+  >choco install mingw --version=8.1.0 -y; choco install vscode vscode-cpptools vscode-code-runner vscode-gitlens vscode-icons vscode-live-share vscode-live-share-audio git cascadiafonts -y
 
 Jetzt kopiert ihr die Datei, installvscodeforc.exe in den Ordner, wo sich später euer Quellcode und eure Programme befinden sollen und führt sie aus, z. B. per Doppelklick. Dann lehnt ihr euch für ein, zwei Minütchen locker zurück.
+  
+Sollte es an dieser Stelle Probleme geben, hätte ich am ehesten einen Virenscanner im Verdacht. Die Lösung wäre es, diesen kurz zu deaktivieren, die Installation abzuschließen und ihn dann wieder zu aktivieren. Das ist natürlich euch überlassen.
   
 Ein kleiner Hinweis vorab: 
   
@@ -350,6 +354,15 @@ Weiter unten sehen wir in der Mitte von vielen anderen, eher kryptisch anmutende
 
 Wer diese Ausgabe "hello world" *nicht* erhält sollte sich an dieser Stelle der Troubleshooting-Sektion zuwenden. Solange ein Programm nicht abgearbeitet wird, wird auch das Folgende nicht funktionieren. Bei wem nur das "andere Zeug" drumherum anders aussieht, braucht sich keine Sorgen machen.
 
+Dies ist das Ende der "Beta-Installation". Bei Problemen stehe ich gerne unter der E-Mail Adresse im Moodlekurs zur Verfügung.
+ 
+Eine abgebrochene Installation lässt sich mit den folgenden Befehlen, wieder in einer administrativen PowerShell, entfernen:
+  
+  >choco uninstall mingw vscode vscode-cpptools vscode-code-runner vscode-gitlens vscode-icons vscode-live-share vscode-live-share-audio git cascadiafonts -y
+
+Und danach
+
+  >Remove-Item C:\ProgramData\chocolatey -Recurse
   
 </details>
   
