@@ -295,7 +295,7 @@ An dieser Stelle sind wir mit dem windows-spezifischen Teil der Installation und
 </details>  
   
  
-
+<details> 
 <summary>Hier klicken um VSCode auf die schnelle, ungetestete Art zu installieren. Hier könnt ihr auswählen, wo auf eurer Festplatte sich später eure C-Programme befinden.</summary>
   
 In diese PowerShell kopieren wir am Stück folgende Zeile:
