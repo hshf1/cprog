@@ -377,6 +377,42 @@ Kein Problem. Du kannst der entsprechenden Anleitung trotzdem einfach folgen. Fa
 
 </details>
 
+## Ich möchte VSCode lieber manuell installieren
+
+<details>
+<summary>Click to expand</summary>
+
+Falls du Mac-User bist, sollte das kein gesteigertes Problem sein. Die Anleitung zeigt eigentlich nur ein Beispiel für eine manuelle Installation. Nur für Windows musste ich in die Trickkiste greifen, damit alles funktioniert. 
+  
+
+  Falls du Windows-User bist:
+
+Ok, ich respektiere das. Aber es gibt einen Grund, warum ich versucht habe die Installation so weit wie möglich zu automatisieren. Du solltest Computer mögen und selbstständig troubleshooten können.
+  
+Ich kann dir sagen, was die Installation laut Anleitung grob tut und wo ich kämpfen musste, aber den restlichen "Spaß" überlasse ich dir. 
+  
+Das ist die Liste der Dinge die wie installieren:
+  
+  mingw vscode vscode-cpptools vscode-code-runner vscode-gitlens vscode-icons vscode-live-share vscode-live-share-audio git cascadiafonts
+  
+Die Reihenfolge ist nicht zufällig. 
+  
+  mingw beinhaltet Compiler (gcc) und Debugger (gdb) für Windows. Der Debugger ist leider irgendwann aus dem Paket verschwunden. In der Anleitung kann ich mit Chocolatey alte Versionen ziehen. In Version 8.1.0 war gdb noch dabei. Vielleicht findest du die irgendwo oder kannst gdb von Hand nachinstallieren.
+  
+  vscode kannst du einfach runterladen und installieren. Das ist der leichte Teil. VSCode ist aber "nur" ein Editor mit Sonderleistungen, keine fertige C-Entwicklungsumgebung. Das einzurichten ist der kniffelige Teil. Ich habe mich an eine Anleitung von Microsoft für C++ gehalten und dann geduldig probiert.
+  
+  https://code.visualstudio.com/docs/languages/cpp
+  
+  Tipp: Schau in die launch.json, task.json und settings.json aus dem git repository, das man lädt, wenn man der Anleitung folgt.
+  
+  Alles was mit "vscode-" beginnt sind einfach Extensions, die du innerhalb von VSCode nachladen kannst.
+  
+  git hat soweit ich mich erinnere keine weiteren Probleme gemacht. Brauchst du auch nicht zwangsläufig.
+  
+  cascadiafonts ist eine Schriftartenfamilie, die speziell für Programmier entwickelt wurde. Wenn du's bis hier geschafft hast, bekommst du das auch noch hin; ansonsten, egal, das ist fast nur Kosmetik, andere Schriftarten sind auch ok.
+
+</details>
+  
 ## Allgemeiner Teil
 
 Nun testen wir unsere Installation und machen uns dabei schon ein wenig mit VSCode vertraut. Wir werden einen neuen Ordner anlegen, eine neue Datei erstellen, ein Programm schreiben und dieses abarbeiten und debuggen.
