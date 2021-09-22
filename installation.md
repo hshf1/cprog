@@ -391,21 +391,23 @@ Ok, ich respektiere das. Aber es gibt einen Grund, warum ich versucht habe die I
   
 Ich kann dir sagen, was die Installation laut Anleitung grob tut und wo ich kämpfen musste, aber den restlichen "Spaß" überlasse ich dir. 
   
-Das ist die Liste der Dinge die wie installieren:
+Das ist die Liste der Dinge die wir installieren:
   
   mingw vscode vscode-cpptools vscode-code-runner vscode-gitlens vscode-icons vscode-live-share vscode-live-share-audio git cascadiafonts
   
 Die Reihenfolge ist nicht zufällig. 
   
-  mingw beinhaltet Compiler (gcc) und Debugger (gdb) für Windows. Der Debugger ist leider irgendwann aus dem Paket verschwunden. In der Anleitung kann ich mit Chocolatey alte Versionen ziehen. In Version 8.1.0 war gdb noch dabei. Vielleicht findest du die irgendwo oder kannst gdb von Hand nachinstallieren.
+  mingw beinhaltet Compiler (gcc) und Debugger (gdb) für Windows. Der Debugger ist leider irgendwann aus dem Paket verschwunden. In der Anleitung kann
+  ich mit Chocolatey alte Versionen ziehen. In Version 8.1.0 war gdb noch dabei. Du kannst das gesamte Paket aber noch im Internet finden. [Hier ist der Download link](http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download), du musst allerdings selbst alle Konfigurationen vornehmen.
   
-  vscode kannst du einfach runterladen und installieren. Das ist der leichte Teil. VSCode ist aber "nur" ein Editor mit Sonderleistungen, keine fertige C-Entwicklungsumgebung. Das einzurichten ist der kniffelige Teil. Ich habe mich an eine Anleitung von Microsoft für C++ gehalten und dann geduldig probiert.
+  vscode kannst du einfach runterladen und installieren. Das ist der leichte Teil. VSCode ist aber "nur" ein Editor mit Sonderleistungen, keine fertige C-Entwicklungsumgebung. 
+  Du benötigst die oben genannten Erweiterungen, die du aber ganz einfach über den Reiter *Extentions* finden und installieren kannst.  
+  Grundsätzlich solltest du nun einfach der Anleitung für das erste Projekt folgen können. Falls es aber Probleme gibt, bist du auf die alleine gestellt.
+  Schaue dazu gerne die Anleitung von Microsoft an, die mir sehr geholfen hat:
   
   https://code.visualstudio.com/docs/languages/cpp
   
   Tipp: Schau in die launch.json, task.json und settings.json aus dem git repository, das man lädt, wenn man der Anleitung folgt.
-  
-  Alles was mit "vscode-" beginnt sind einfach Extensions, die du innerhalb von VSCode nachladen kannst.
   
   git hat soweit ich mich erinnere keine weiteren Probleme gemacht. Brauchst du auch nicht zwangsläufig.
   
